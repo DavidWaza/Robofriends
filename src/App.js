@@ -3,6 +3,7 @@ import 'tachyons';
 import { robots } from './robots'
 import CardList from './CardList';
 import SearchBox from './SearchBox';
+import './App.css';
 
 class App extends Component {
   constructor(){
@@ -22,7 +23,7 @@ class App extends Component {
         console.log(filteredRobots);
     return (
     <div className="App">  
-    <h1 className='f1 tc f_c'>RoboFriends</h1>
+    <h1 className='f1 tc'>RoboFriends</h1>
      <SearchBox  searchChange={this.onSearchChange}/>
    <CardList  robots={filteredRobots}/>
     </div>

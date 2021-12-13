@@ -8,10 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to right, rgb(26, 53, 3), rgb(4, 58, 3));
 }
-.f_c {
-  font-family: "Bebas Neue", cursive;
-  color: white;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
